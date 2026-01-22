@@ -9,7 +9,7 @@ public class Main {
 class Validate {
     public static boolean age(int value) throws AgeLessThanZeroException {
         if (value < 0) {
-            throw new AgeLessThanZeroException(new RuntimeException());
+            throw new AgeLessThanZeroException("The age cant be less than zero", new RuntimeException());
         }
 
         return true;

@@ -1,6 +1,6 @@
 package com.customexception.org;
 
-public class AgeLessThanZeroException extends Exception {
+public class AgeLessThanZeroException extends Exception{
     public AgeLessThanZeroException() {}
     public AgeLessThanZeroException(String message) {
         super(message);
